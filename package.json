@@ -1,5 +1,21 @@
 {
+  "name": "si5c_kuis1_rehan",
+  "version": "1.0.0",
+  "description": "Kuis 1 PAW II - Refactor RESTful API Manajemen Acara",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Rayhan Primal",
+  "license": "ISC",
   "dependencies": {
-    "express": "^5.2.1"
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.10"
   }
 }
